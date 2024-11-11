@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(87, 87, 87); /* Zastąp "lightblue" dowolnym kolorem */
+    display: flex;
+    justify-content: left; /* Centruje poziomo */
+    align-items: left; /* Centruje pionowo */
+    height: 100vh; /* Ustawia wysokość na 100% widoku przeglądarki */
+    margin: 0;
+}
+table {
+    font-family: Verdana, sans-serif; /* Wybierz preferowaną czcionkę */
+    font-size: 26px; /* Dowolny rozmiar, np. 16px */
+    width: 50%; /* Opcjonalnie: ustawia szerokość tabeli */
+}
+.smaki-header {
+    font-weight: bold; /* lub liczbowo, np. font-weight: 700; */
+    font-size: 36px; /* Zmień rozmiar na wybrany, np. 20px */
+}
+.dostepnosc-header {
+    font-weight: bold; /* lub liczbowo, np. font-weight: 700; */
+    font-size: 36px;
+}
+    table {
+		width:100%;
+	}
+	table, th, td {
+		border: 1px solid black;
+		border-collapse: collapse;
+	}
+	 td {
+		padding: 15px;
+		text-align: center;
+	}
+	tr:nth-child(even) {
+		background-color: #ccc;
+	}
+	tr:nth-child(odd) {
+		background-color: #fff;
+	}
+	th {
+        padding: 15px;
+		text-align: middle;
+		background-color: #888;
+		color: white;
+	}
+/* Styl dla Smaki */
+.smaki-header {
+    background-color: #284fc1
+}
+/* Styl dla dostepnosc */
+.dostepnosc-header {
+    background-color: #46d144
+}
+
+/* Dodatkowy styl dla nagłówków, jeśli chcesz */
+table th {
+    font-weight: bold;
+    padding: 10px;
+}
+.smak1 {
+    background-color: #990000;
+    color: white
+}
+.smak2 {
+    background-color: #bec04c;
+    color: white
+}
+.smak3 {
+    background-color: #209c01;
+    color: white
+}
+.smak4 {
+    background-color: #9c015b;
+    color: white
+}
+.smak5 {
+    background-color: #56019c;
+    color: white
+}
+.smak6 {
+    background-color: #016b9c;
+    color: white
+}
